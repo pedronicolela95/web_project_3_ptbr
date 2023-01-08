@@ -1,0 +1,17 @@
+.cover__button {
+  width: 191px;
+  height: 48px;
+
+  background: #0278fe;
+  border-radius: 4px;
+  border-color: transparent;
+  font-size: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  transition: background 0.5s linear;
+}
+
+.cover__button:hover {
+  background: #0063d2;
+}

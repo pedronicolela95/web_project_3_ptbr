@@ -1,0 +1,8 @@
+.place {
+  width: 984px;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: minmax(76px, auto) 460px minmax(48px, auto);
+  row-gap: 48px;
+  column-gap: 40px;
+}
