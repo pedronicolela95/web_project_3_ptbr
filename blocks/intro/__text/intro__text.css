@@ -1,8 +1,9 @@
 .intro__text {
-  width: 720px;
+  width: calc(min(720px, 100vw));
+
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.63;
 
-  margin-top: 32px;
+  margin-top: min(32px, calc(3.125vw + 8px));
 }

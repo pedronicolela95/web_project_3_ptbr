@@ -5,7 +5,33 @@
   line-height: 1.04;
   text-align: center;
 
-  margin-top: 90px;
-  margin-bottom: 32px;
-  max-width: 793px;
+  margin-top: min(90px, calc(8.895vw + 21.6857px));
+  margin-bottom: calc((-13.0859375vw + 199.5px));
+
+  /* size properties */
+
+  width: calc(min(793px, 93.75vw));
+}
+
+@media screen and (width: 768px) {
+  .header__title {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (width: 320px) {
+  .header__title {
+    margin-top: 50.15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    /* font properties */
+    font-size: 12.5vw;
+    line-height: calc(12.5vw + 4px);
+
+    margin-bottom: calc((8.705357142vw + 32.1428571429px));
+    width: calc(min(720px, 90vw));
+  }
 }

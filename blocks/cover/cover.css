@@ -1,9 +1,15 @@
 .cover {
-  width: 1184px;
-  height: 740px;
+  width: min(1184px, 100%);
+  height: min(740px, 96.35vw);
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: calc(109.821428571vw - 97.4285714286px);
+  }
 }

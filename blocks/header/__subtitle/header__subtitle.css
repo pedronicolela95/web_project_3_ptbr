@@ -1,11 +1,22 @@
 .header__subtitle {
+  width: calc(min(720px, 90vw));
+  margin-bottom: calc(76.5px - 0.9765625vw);
+
+  /* font properties */
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
+}
 
-  width: 720px;
-  height: 72px;
-  margin-bottom: 64px;
+/* media query to change font properties */
+
+@media screen and (max-width: 768px) {
+  .header__subtitle {
+    margin-bottom: calc(6.473214285vw + 19.2857142857px);
+    /* font properties */
+    font-size: calc((3.125vw + 6px));
+    line-height: calc((3.571428571vw + 8.57142857143px));
+  }
 }

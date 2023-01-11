@@ -1,6 +1,6 @@
 .cover__overlay {
-  width: 1184px;
-  height: 740px;
+  width: 100%;
+  height: min(740px, 96.35vw);
   position: absolute;
   z-index: 1;
   background: #2a2c2f;
@@ -8,6 +8,16 @@
   transition: opacity 1s linear;
 }
 
+.cover__button:hover ~ .cover__overlay {
+  opacity: 0.8;
+}
+
 .cover__overlay:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    height: calc(109.821428571vw - 97.4285714286px);
+  }
 }

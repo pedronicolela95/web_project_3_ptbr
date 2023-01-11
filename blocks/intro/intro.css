@@ -1,6 +1,12 @@
 .intro {
-  display: block;
-  width: 1017px;
-  margin-bottom: 92px;
-  margin-left: 148px;
+  margin: 0 auto;
+  padding-bottom: min(92px, calc(5.803571428vw + 19.43px));
+
+  width: min(984px, 93.75vw);
+}
+
+@media screen and (max-width: 565px) {
+  .intro {
+    width: 90vw;
+  }
 }

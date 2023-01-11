@@ -1,7 +1,8 @@
 .cover__title {
   background: transparent;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  /* identical to box height, or 106% */
+  font-size: min(72px, 10vw);
+  line-height: min(1.06, calc(9.15178571429vw + 5.71428571429px));
+  margin-bottom: min(32px, 5vw);
+  z-index: 2;
 }

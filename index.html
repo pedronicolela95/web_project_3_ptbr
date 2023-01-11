@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="root">
-    <div class="header">
+    <header class="header">
       <img
         class="header__logo"
         src="./images/header/__logo.svg"
@@ -23,9 +23,9 @@
         alt="Imagem
       bonita"
       />
-    </div>
+    </header>
 
-    <div class="intro">
+    <section class="intro">
       <h2 class="intro__title">
         Conheça um pouco melhor os lugares de onde seus amigos online vêm
       </h2>
@@ -45,8 +45,9 @@
         uma obra de arte visual dedicada à sua cidade natal à nossa coleção. Não
         importa de onde você é, estamos felizes por você ser nosso vizinho.
       </p>
-    </div>
-    <div class="photo-grid">
+    </section>
+
+    <section class="photo-grid">
       <img
         class="photo-grid__item"
         alt="Imagem 1"
@@ -87,16 +88,23 @@
         alt="Imagem 8"
         src="./images/photo-grid/__item-8.png"
       />
-    </div>
-    <div class="places">
-      <div class="place">
+    </section>
+
+    <ul class="places">
+      <li class="place">
         <h3 class="place__title">Kiev, Ucrânia</h3>
         <img
           class="place__image"
           src="./images/place/__image-kiev.png"
           alt="Foto Kiev"
         />
-        <button class="place__button">Compre esta obra de arte como NFT</button>
+        <a
+          class="place__button"
+          href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          target="_blank"
+        >
+          Compre esta obra de arte como NFT
+        </a>
         <div class="place__website">
           <h6 class="place__url-heading">Artista</h6>
           <h5 class="place__artist">
@@ -121,17 +129,22 @@
             por pessoas que vivem na periferia da margem direita.
           </p>
         </article>
-      </div>
+      </li>
 
-      <div class="place">
+      <li class="place">
         <h3 class="place__title">Criccieth, Gales</h3>
-        <!--Utilizei Gales no lugar de País de Gales para não quebrar a coluna lateral-->
         <img
           class="place__image"
           src="./images/place/__image-criccieth.png"
           alt="Foto Criccieth"
         />
-        <button class="place__button">Compre esta obra de arte como NFT</button>
+        <a
+          class="place__button"
+          href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          target="_blank"
+        >
+          Compre esta obra de arte como NFT
+        </a>
         <div class="place__website">
           <h6 class="place__url-heading">Artistas</h6>
           <h5 class="place__artist">Steffan Warren, editor-chefe</h5>
@@ -157,16 +170,22 @@
             Unido.
           </p>
         </article>
-      </div>
+      </li>
 
-      <div class="place">
+      <li class="place">
         <h3 class="place__title">Berea, EUA</h3>
         <img
           class="place__image"
           src="./images/place/__image-berea.png"
           alt="Foto Berea"
         />
-        <button class="place__button">Compre esta obra de arte como NFT</button>
+        <a
+          class="place__button"
+          href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          target="_blank"
+        >
+          Compre esta obra de arte como NFT
+        </a>
         <div class="place__website">
           <h6 class="place__url-heading">Artista</h6>
           <h5 class="place__artist">Travis Turner, autor e editor</h5>
@@ -189,16 +208,22 @@
             bolsa de estudos integral.
           </p>
         </article>
-      </div>
+      </li>
 
-      <div class="place">
+      <li class="place">
         <h3 class="place__title">Muramvya, Burundi</h3>
         <img
           class="place__image"
           src="./images/place/__image-muramvya.png"
           alt="Foto Muramvya"
         />
-        <button class="place__button">Compre esta obra de arte como NFT</button>
+        <a
+          class="place__button"
+          href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          target="_blank"
+        >
+          Compre esta obra de arte como NFT
+        </a>
         <div class="place__website">
           <h6 class="place__url-heading">Artista</h6>
           <h5 class="place__artist">Grevisse Kenguruka, editor técnico</h5>
@@ -227,16 +252,22 @@
             vários rios e riachos que fornecem água em todo o país.
           </p>
         </article>
-      </div>
+      </li>
 
-      <div class="place">
+      <li class="place">
         <h3 class="place__title">Piracicaba, Brasil</h3>
         <img
           class="place__image"
           src="./images/place/__image-piracicaba.png"
           alt="Foto Piracicaba"
         />
-        <button class="place__button">Compre esta obra de arte como NFT</button>
+        <a
+          class="place__button"
+          href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          target="_blank"
+        >
+          Compre esta obra de arte como NFT
+        </a>
         <div class="place__website">
           <h6 class="place__url-heading">Artista</h6>
           <h5 class="place__artist">
@@ -259,28 +290,31 @@
             Americana.
           </p>
         </article>
-      </div>
-    </div>
-
-    <div class="cover">
-      <div class="cover__overlay"></div>
+      </li>
+    </ul>
+    <section class="cover">
       <img
         class="cover__background"
         src="./images/cover/__background.png"
         alt="Imagem background"
       />
-      <div class="cover__content">
-        <h2 class="cover__title">Visite-Nos</h2>
-        <h4 class="cover__subtitle">
-          Durante todo o ano Galeria de Arte Practicum 404, Avenida Tim
-          Berners-Lee.
-        </h4>
-        <button class="cover__button">Comprar bilhetes</button>
-      </div>
-    </div>
 
-    <div class="footer">
-      <h6 class="footer__copyright">© 2022. Pedro Nicolela</h6>
-    </div>
+      <h2 class="cover__title">Visite-Nos</h2>
+      <h4 class="cover__subtitle">Durante todo o ano</h4>
+      <h4 class="cover__subtitle">Galeria de Arte Practicum</h4>
+      <h4 class="cover__subtitle">404, Avenida Tim Berners-Lee.</h4>
+      <a
+        class="cover__button"
+        href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+        target="_blank"
+      >
+        Comprar bilhetes
+      </a>
+      <div class="cover__overlay"></div>
+    </section>
+
+    <footer class="footer">
+      <h6 class="footer__copyright">© 2023. Pedro Nicolela</h6>
+    </footer>
   </body>
 </html>

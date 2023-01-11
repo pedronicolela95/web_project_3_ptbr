@@ -1,5 +1,13 @@
 .cover__background {
   position: absolute;
-  object-fit: contain;
+  max-width: 100%;
+  height: min(740px, 96.35vw);
+  object-fit: cover;
   z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    height: calc(109.821428571vw - 97.4285714286px);
+  }
 }

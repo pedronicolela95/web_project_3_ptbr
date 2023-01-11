@@ -5,6 +5,18 @@
   align-items: center;
   margin: 0 auto;
 
-  padding-top: 34px;
-  padding-bottom: 92px;
+  padding-top: min(34px, calc(3.125vw + 10px));
+  padding-bottom: min(92px, calc(9.82vw + 12.57px));
+}
+
+@media screen and (width: 768px) {
+  .header {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (width: 320px) {
+  .header {
+    padding-bottom: 44px;
+  }
 }

@@ -1,6 +1,6 @@
 .place__paragraph {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
+  font-size: max(16px, min(18px, calc((16 / 768) * 100vw)));
+  line-height: 1.63;
 }

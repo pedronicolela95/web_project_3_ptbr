@@ -1,4 +1,4 @@
-.header__logo.css {
-  max-width: 270px;
-  max-height: 70px;
+.header__logo {
+  /* defining container size */
+  width: calc(min(270px, calc(15.625vw + 150px)));
 }

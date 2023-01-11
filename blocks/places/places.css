@@ -1,9 +1,7 @@
 .places {
-  width: 984px;
-  padding-top: 92px;
-  padding-bottom: 105px;
-  margin: 0px auto;
+  padding-top: min(92px, calc(5.803571428vw + 43.4285714286px));
+  padding-bottom: min(92px, calc(6.25vw + 44px));
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: min(80px, calc(9.375vw));
 }

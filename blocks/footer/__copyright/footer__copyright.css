@@ -1,8 +1,7 @@
 .footer__copyright {
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  /* identical to box height, or 114% */
+  line-height: min(16px, calc(0.446428571vw + 12.5714285714px));
   text-align: right;
 
   width: 163px;

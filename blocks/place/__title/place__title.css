@@ -1,12 +1,16 @@
 .place__title {
-  grid-row: 1;
-  grid-column: 1;
-  font-style: normal;
+  grid-area: title;
+
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  max-height: 152px;
-  min-height: 76px;
-  text-overflow: clip;
-  overflow: hidden;
+  font-size: calc(((72 - 42) / (1280 - 768)) * 100vw + 3px);
+  line-height: calc(((76 - 46) / (1280 - 768)) * 100vw + 1px);
+}
+
+@media screen and (max-width: 544px) {
+  .place__title {
+    width: 90vw;
+    margin: 0 auto;
+    font-size: 10vw;
+    line-height: 1.094;
+  }
 }

@@ -1,8 +1,33 @@
 .place {
-  width: 984px;
+  width: min(984px, 93.75vw);
+  margin: 0px auto;
   display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: minmax(76px, auto) 460px minmax(48px, auto);
+  grid-template-columns:
+    min(460px, calc((340 / 768) * 100vw))
+    min(484px, calc((352 / 768) * 100vw));
+  grid-template-rows:
+    minmax(min(76px, calc((46 / 768) * 100vw)), auto)
+    min(460px, calc((340 / 768) * 100vw))
+    minmax(min(48px, calc((48 / 768) * 100vw)), auto);
   row-gap: 48px;
-  column-gap: 40px;
+  column-gap: min(40px, calc((28 / 768) * 100vw));
+  grid-template-areas:
+    "title website"
+    "image text"
+    "button text";
+}
+
+@media screen and (max-width: 545px) {
+  .place {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "text"
+      "button";
+    row-gap: 30px;
+  }
 }

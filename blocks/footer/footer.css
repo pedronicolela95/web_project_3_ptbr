@@ -1,4 +1,5 @@
 .footer {
+  padding-top: min(92px, calc(5.35714285714vw + 46.8571428571px));
   padding-bottom: 24px;
   display: flex;
   align-items: center;
