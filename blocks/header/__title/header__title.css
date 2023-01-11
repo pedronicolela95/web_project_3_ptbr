@@ -5,8 +5,8 @@
   line-height: 1.04;
   text-align: center;
 
-  margin-top: min(90px, calc(8.895vw + 21.6857px));
-  margin-bottom: calc((-13.0859375vw + 199.5px));
+  margin-top: min(90px, calc(8.89vw + 21.68px));
+  margin-bottom: calc((-13.08vw + 199.5px));
 
   /* size properties */
 
@@ -31,7 +31,7 @@
     font-size: 12.5vw;
     line-height: calc(12.5vw + 4px);
 
-    margin-bottom: calc((8.705357142vw + 32.1428571429px));
+    margin-bottom: calc((8.7vw + 32.14px));
     width: calc(min(720px, 90vw));
   }
 }

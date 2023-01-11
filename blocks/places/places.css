@@ -1,5 +1,5 @@
 .places {
-  padding-top: min(92px, calc(5.803571428vw + 43.4285714286px));
+  padding-top: min(92px, calc(5.8vw + 43.43px));
   padding-bottom: min(92px, calc(6.25vw + 44px));
   display: flex;
   flex-direction: column;

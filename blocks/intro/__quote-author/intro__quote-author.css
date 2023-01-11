@@ -6,6 +6,6 @@
   font-size: 24px;
   line-height: 1.25;
   text-align: right;
-  margin-top: max(-24px, calc(34.2857142857px - 7.589285714vw));
+  margin-top: max(-24px, calc(34.28px - 7.59vw));
   background-color: transparent;
 }
