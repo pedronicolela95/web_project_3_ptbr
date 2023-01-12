@@ -22,7 +22,7 @@ Para este projeto utilizei HTML e CSS!
 
 **Link Github page**
 
-Caso tenha interesse, acesse o link para ver o resultado:
+Caso tenha interesse, acesse o link para ver o resultado: https://pedronicolela95.github.io/web_project_3_ptbr/
 
 **Figma**
 
