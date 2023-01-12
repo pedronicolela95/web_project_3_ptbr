@@ -8,7 +8,7 @@
   transition: opacity 1s linear;
 }
 
-.cover__button:hover ~ .cover__overlay {
+.cover:hover .cover__overlay {
   opacity: 0.8;
 }
 
